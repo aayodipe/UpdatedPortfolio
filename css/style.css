@@ -254,7 +254,7 @@ header .content-wapper{
 }
 
 .portfolio-item img { 
-	width:80%;
+	width:100%;
 	overflow: hidden;
     margin-bottom: 30px;
 }
