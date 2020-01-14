@@ -7,6 +7,9 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 }
+main {
+	width:100%
+}
 
 h1,
 h2 {
@@ -225,6 +228,7 @@ header {
 	color: #fff;
 	text-align: center;
 	padding-top: 3.3em;
+	width:100%;
 
 }
 p {font-size: 1em;
@@ -232,7 +236,12 @@ p {font-size: 1em;
 
 header .content-wapper{
 	padding: 20px;
+
+}
+.content-wapper {
+	width: 86%;
 	justify-content: center;
+	overflow-x: hidden;
 }
 
 .portfolio-item {
@@ -283,11 +292,13 @@ footer ul li {
 	header p,
 	.selected-project{display: none}
 	.content-wapper {
-		width:100vw;
+		width:86%;
 		justify-content: center;
 		overflow-x: hidden;
 	}
-footer ul li {display: block;}
+footer ul li {display: block; text-align: center;
+
+}
 		
 } 
 
